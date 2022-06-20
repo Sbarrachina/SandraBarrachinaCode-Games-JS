@@ -1,25 +1,33 @@
 
 
 body{
-background-color: rgb(223, 233, 239);
+font-family: 'Bangers', cursive;
+background-image: url(images/fondo-arcade2.jpeg.crdownload);
+
+
 }
   
 header{
-  background-color: rgb(238, 134, 217);
   width: 100%;
-  height: 100px;
+  height: 50px;
   text-align: center;
-  padding-top: 10px;
-  font-size: 20px;
+  padding-top: 5px;
+  font-size: 40px;
+  
 }
 
+h1{
+  margin-top: 10px;
+  color: #f4ebea;
+  -webkit-text-stroke: 1px black;
+}
 
 
 .grid {
   display: flex;
   flex-wrap:wrap;
   padding: 80px;
-  margin-left: 500px;
+  margin-left: 450px;
   width: 900px;
   height: 500px;
 
@@ -33,14 +41,27 @@ h2{
   margin-top: 40px;
   font-family: monospace;
   font-size: 26px;
+  color: white;
+  
 }
 
 footer{
-  background-color: rgb(238, 134, 217);;
-  height: 60px;
+  height: 80px;
+
   
 }
 h3{
   text-align: center;
   padding-top: 20px;
+  font-size: 40px;
+  color: #f4ebea;
+  -webkit-text-stroke: 1px black;
+
+}
+button{
+  width: 100px;
+  font-family:'Bangers', cursive;
+  font-size: 30px;
+  cursor: pointer;
+
 }
